@@ -1,0 +1,71 @@
+/* Normalize */
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Web CSS */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.gray-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eeeeee;
+  height: 62px;
+  margin-left: 5%;
+}
+
+.gray-container p {
+  font-size: medium;
+}
+
+.gray-container input {
+  width: 293px;
+}
+
+.containers {
+  height: 74px;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2px;
+}
+.containers .aqua-container1 {
+  display: flex;
+  flex-direction: column;
+  background: #7ee5da;
+  width: 37%;
+  padding-top: 10px;
+}
+
+.containers .aqua-container2 {
+  width: 26%;
+  margin-left: 2px;
+  background: #70ccc2;
+  font-size: small;
+  padding-top: 5px;
+}
+
+.containers .aqua-container3 {
+  width: 37%;
+  margin-left: 2px;
+  background: #62b3aa;
+  font-size: small;
+}
+
+.containers .aqua-container3 a {
+  padding-left: 10px;
+}
+
+footer {
+  margin-top: 15px;
+  font-size: small;
+}
